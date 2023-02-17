@@ -1,0 +1,70 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ex1",
+            "request": "launch",
+            "mainClass": "seminar1dz.ex1",
+            "projectName": "java_6ef7fd97"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex000_stringbuilder",
+            "request": "launch",
+            "mainClass": "lec2.Ex000_stringbuilder",
+            "projectName": "java_6ef7fd97"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex002_fileSystemDemo",
+            "request": "launch",
+            "mainClass": "lec2.Ex002_fileSystemDemo",
+            "projectName": "java_6ef7fd97"
+        },
+        {
+            "type": "java",
+            "name": "Launch ex3",
+            "request": "launch",
+            "mainClass": "seminar2.ex3",
+            "projectName": "java_6ef7fd97"
+        },
+        {
+            "type": "java",
+            "name": "Launch ex2",
+            "request": "launch",
+            "mainClass": "seminar2.ex2",
+            "projectName": "java_6ef7fd97"
+        },
+        {
+            "type": "java",
+            "name": "Launch ex1",
+            "request": "launch",
+            "mainClass": "seminar2.ex1",
+            "projectName": "java_6ef7fd97"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch program",
+            "request": "launch",
+            "mainClass": "lec1.program",
+            "projectName": "java_6ef7fd97"
+        },
+        {
+            "type": "java",
+            "name": "Launch App6",
+            "request": "launch",
+            "mainClass": "seminar1.App6",
+            "projectName": "java_6ef7fd97"
+        }
+    ]
+}
