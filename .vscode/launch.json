@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ex1",
+            "request": "launch",
+            "mainClass": "ex1",
+            "projectName": "java_6ef7fd97"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex005",
+            "request": "launch",
+            "mainClass": "lec3.Ex005",
+            "projectName": "java_6ef7fd97"
+        },
+        {
+            "type": "java",
             "name": "Launch Ex001",
             "request": "launch",
             "mainClass": "lec3.Ex001",
