@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch logging",
+            "request": "launch",
+            "mainClass": "logging",
+            "projectName": "java_6ef7fd97"
+        },
+        {
+            "type": "java",
+            "name": "Launch ex3",
+            "request": "launch",
+            "mainClass": "ex3",
+            "projectName": "java_6ef7fd97"
+        },
+        {
+            "type": "java",
+            "name": "Launch ex2",
+            "request": "launch",
+            "mainClass": "ex2",
+            "projectName": "java_6ef7fd97"
+        },
+        {
+            "type": "java",
             "name": "Launch ex1",
             "request": "launch",
             "mainClass": "ex1",
