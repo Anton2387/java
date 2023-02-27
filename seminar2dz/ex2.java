@@ -3,20 +3,33 @@
 // результат после каждой итерации запишите в лог-файл.
 
 import java.io.IOException;
+import java.util.logging.*;
 import java.util.Arrays;
-import java.util.logging.LogManager;
 
 public class ex2 {
 
-    public static void logFile(String[] args) {
-        try {
-            LogManager.getLogManager().readConfiguration(
-                    logging.class.getResourceAsStream("/logging.properties"));
-        } catch (IOException e) {
-            System.err.println("Could not setup logger configuration: " + e.toString());
-        }
-    }  
-    public static void main(String[] args) {
+    // public static void logFile(String[] args) {
+    //     try {
+    //         LogManager.getLogManager().readConfiguration(logging.class.getResourceAsStream("/logging.properties"));
+    //     } catch (IOException e) {
+    //         System.err.println("Could not setup logger configuration: " + e.toString());
+    //     }
+    // }
+
+    public static void main(String[] args) throws SecurityException, IOException {
+        Logger logger = Logger.getLogger(ex2.class.getName());
+        // ConsoleHandler ch = new ConsoleHandler();
+        FileHandler fh = new FileHandler("log.xml");
+        logger.addHandler(fh);
+        //SimpleFormatter sFormat = new SimpleFormatter();
+        XMLFormatter xml = new XMLFormatter();
+        //ch.setFormatter(sFormat);
+        fh.setFormatter(xml);
+        logger.log(Level.WARNING, "Тестовое логирование 1");
+        logger.info("Тестовое логирование 2");
+    }
+
+    public static void main(String[] args, Logger logger) {
         int [] mas = {11, 3, 14, 16, 7};
  
         boolean isSorted = false;
@@ -30,6 +43,9 @@ public class ex2 {
                     buf = mas[i];
                     mas[i] = mas[i+1];
                     mas[i+1] = buf;
+
+                    logger.log(Level.WARNING, "Тестовое логирование 1");
+                    logger.info("Тестовое логирование 2");
                 }
             }
         }
