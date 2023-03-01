@@ -11,6 +11,7 @@ public class ex3 {
         Logger logger = Logger.getLogger(ex3.class.getName());
         // ConsoleHandler ch = new ConsoleHandler();
         FileHandler fh = new FileHandler("log.xml");
+        logger.setUseParentHandlers(false);
         logger.addHandler(fh);
         //SimpleFormatter sFormat = new SimpleFormatter();
         XMLFormatter xml = new XMLFormatter();

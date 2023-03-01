@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ex002",
+            "request": "launch",
+            "mainClass": "lec4.Ex002",
+            "projectName": "java_6ef7fd97"
+        },
+        {
+            "type": "java",
+            "name": "Launch testlog",
+            "request": "launch",
+            "mainClass": "testlog",
+            "projectName": "java_6ef7fd97"
+        },
+        {
+            "type": "java",
             "name": "Launch test",
             "request": "launch",
             "mainClass": "test",

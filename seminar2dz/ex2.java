@@ -19,7 +19,7 @@ public class ex2 {
     public static void main(String[] args) throws SecurityException, IOException {
         Logger logger = Logger.getLogger(ex2.class.getName());
         // ConsoleHandler ch = new ConsoleHandler();
-        FileHandler fh = new FileHandler("log.xml");
+        FileHandler fh = new FileHandler("log2.xml");
         logger.addHandler(fh);
         //SimpleFormatter sFormat = new SimpleFormatter();
         XMLFormatter xml = new XMLFormatter();

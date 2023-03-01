@@ -2,27 +2,99 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2023-02-27T14:27:25.294256700Z</date>
-  <millis>1677508045294</millis>
-  <nanos>256700</nanos>
+  <date>2023-02-27T14:46:20.991894400Z</date>
+  <millis>1677509180991</millis>
+  <nanos>894400</nanos>
   <sequence>0</sequence>
-  <logger>ex2</logger>
-  <level>WARNING</level>
-  <class>ex2</class>
+  <logger>ex3</logger>
+  <level>INFO</level>
+  <class>ex3</class>
   <method>main</method>
   <thread>1</thread>
-  <message>Тестовое логирование 1</message>
+  <message>iterations: передвинули на 1 позицию в начало 3</message>
 </record>
 <record>
-  <date>2023-02-27T14:27:25.380143100Z</date>
-  <millis>1677508045380</millis>
-  <nanos>143100</nanos>
+  <date>2023-02-27T14:46:21.007520100Z</date>
+  <millis>1677509181007</millis>
+  <nanos>520100</nanos>
   <sequence>1</sequence>
-  <logger>ex2</logger>
+  <logger>ex3</logger>
   <level>INFO</level>
-  <class>ex2</class>
+  <class>ex3</class>
   <method>main</method>
   <thread>1</thread>
-  <message>Тестовое логирование 2</message>
+  <message>[3, 11, 14, 16, 7]</message>
+</record>
+<record>
+  <date>2023-02-27T14:46:21.007520100Z</date>
+  <millis>1677509181007</millis>
+  <nanos>520100</nanos>
+  <sequence>2</sequence>
+  <logger>ex3</logger>
+  <level>INFO</level>
+  <class>ex3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>iterations: передвинули на 1 позицию в начало 7</message>
+</record>
+<record>
+  <date>2023-02-27T14:46:21.007520100Z</date>
+  <millis>1677509181007</millis>
+  <nanos>520100</nanos>
+  <sequence>3</sequence>
+  <logger>ex3</logger>
+  <level>INFO</level>
+  <class>ex3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>[3, 11, 14, 7, 16]</message>
+</record>
+<record>
+  <date>2023-02-27T14:46:21.007520100Z</date>
+  <millis>1677509181007</millis>
+  <nanos>520100</nanos>
+  <sequence>4</sequence>
+  <logger>ex3</logger>
+  <level>INFO</level>
+  <class>ex3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>iterations: передвинули на 1 позицию в начало 7</message>
+</record>
+<record>
+  <date>2023-02-27T14:46:21.007520100Z</date>
+  <millis>1677509181007</millis>
+  <nanos>520100</nanos>
+  <sequence>5</sequence>
+  <logger>ex3</logger>
+  <level>INFO</level>
+  <class>ex3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>[3, 11, 7, 14, 16]</message>
+</record>
+<record>
+  <date>2023-02-27T14:46:21.007520100Z</date>
+  <millis>1677509181007</millis>
+  <nanos>520100</nanos>
+  <sequence>6</sequence>
+  <logger>ex3</logger>
+  <level>INFO</level>
+  <class>ex3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>iterations: передвинули на 1 позицию в начало 7</message>
+</record>
+<record>
+  <date>2023-02-27T14:46:21.007520100Z</date>
+  <millis>1677509181007</millis>
+  <nanos>520100</nanos>
+  <sequence>7</sequence>
+  <logger>ex3</logger>
+  <level>INFO</level>
+  <class>ex3</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>[3, 7, 11, 14, 16]</message>
 </record>
 </log>
